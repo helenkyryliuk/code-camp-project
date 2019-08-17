@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Footer from './Footer';
 import Header from './Header';
+import axios from 'axios';
 
 
 export class MainForm extends Component {
@@ -9,6 +10,7 @@ export class MainForm extends Component {
     this.state = {
       amount: "",
       submittingState: "",
+      data: [],
     };
   }
 
@@ -17,8 +19,11 @@ export class MainForm extends Component {
     this.setState({ [name]: val });
   };
 
-  handleSubmitForm = () => {
+  handleSubmitForm = async (e) => {
     this.setState({ submittingState: 'submitted' });
+    const result = await axios.get('/smym-data.json');
+    console.log(result.data);
+    this.setState({ data: result.data });
   }
 
     render() {
@@ -26,6 +31,7 @@ export class MainForm extends Component {
         height: "20px",
         width: "25%",
       };
+      const { data } = this.state;
         return (
     <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <Header />
@@ -42,8 +48,9 @@ export class MainForm extends Component {
         </div>
         <p className="lead">Investment analytics tool</p>
         <p className="lead">
-          <button className="btn btn-lg btn-secondary">Search</button>
+          <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Search</button>
         </p>  
+        {data.map(option => <div key={option.ID}>{option.Name}{' '}{option.ROI}%</div>)}
       </main>
       <Footer />
       </div>
