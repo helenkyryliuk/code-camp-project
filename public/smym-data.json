@@ -1,0 +1,173 @@
+[
+ {
+   "ID": 1,
+   "Name": "Amana Kiwisaver Plan - aggressive",
+   "ROI": 6.26,
+   "Minimum Investment": 0,
+   "How Long for Return": "1",
+   "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
+   "Link": "https://www.interest.co.nz/kiwisaver/funds/profile?id=230"
+ },
+ {
+   "ID": 2,
+   "Name": "AMP KiwiSaver ANZ Balanced Growth Fund",
+   "ROI": 7.31,
+   "Minimum Investment": 0,
+   "How Long for Return": "1",
+   "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
+   "Link": "https://www.interest.co.nz/kiwisaver/funds/profile?id=7"
+ },
+ {
+   "ID": 3,
+   "Name": "ASB KiwiSaver Scheme - Balanced Fund",
+   "ROI": 7.57,
+   "Minimum Investment": 0,
+   "How Long for Return": "1",
+   "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
+   "Link": "https://www.canstar.co.nz/compare/kiwisaver-funds/?profile=default&balance=1000&fund_type=Balanced"
+ },
+ {
+   "ID": 4,
+   "Name": "Milford KiwiSaver Plan - Balanced Fund",
+   "ROI": 0.082,
+   "Minimum Investment": 0,
+   "How Long for Return": "1",
+   "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
+   "Link": "https://www.canstar.co.nz/compare/kiwisaver-funds/?profile=default&balance=1000&fund_type=Balanced"
+ },
+ {
+   "ID": 5,
+   "Name": "ANZ KiwiSaver Balanced Fund",
+   "ROI": 5.61,
+   "Minimum Investment": 0,
+   "How Long for Return": "1",
+   "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
+   "Link": "https://www.canstar.co.nz/compare/kiwisaver-funds/?profile=default&balance=1000&fund_type=Balanced"
+ },
+ {
+   "ID": 6,
+   "Name": "Bitcoin",
+   "ROI": 56.864,
+   "Minimum Investment": 0,
+   "How Long for Return": "immediate",
+   "Summary": "get rich fast!! its really legit!!",
+   "Link": "https://99bitcoins.com/bitcoin/investment/"
+ },
+ {
+   "ID": 7,
+   "Name": "Sharesies",
+   "ROI": 1.84,
+   "Minimum Investment": 0,
+   "How Long for Return": "immediate",
+   "Summary": "This is a simple way to get started with investment",
+   "Link": "https://www.sharesies.nz"
+ },
+ {
+   "ID": 8,
+   "Name": "Gold",
+   "ROI": 6.26,
+   "Minimum Investment": 0,
+   "How Long for Return": "immediate",
+   "Summary": "all that glitters is gold...invest now to get rich!",
+   "Link": "https://www.investopedia.com/articles/investing/100915/learn-how-trade-gold-4-steps.asp"
+ },
+ {
+   "ID": 9,
+   "Name": "Coffee",
+   "ROI": 7.31,
+   "Minimum Investment": 0,
+   "How Long for Return": "immediate",
+   "Summary": "mmmmm...cawfee",
+   "Link": "https://www.drinktrade.com/"
+ },
+ {
+   "ID": 10,
+   "Name": "Oil",
+   "ROI": 7.545,
+   "Minimum Investment": 0,
+   "How Long for Return": "immediate",
+   "Summary": "I love the environment!!",
+   "Link": "https://www.ig.com/en/commodities/oil/how-to-trade-oil"
+ },
+ {
+   "ID": 11,
+   "Name": "Apple",
+   "ROI": 0.0889,
+   "Minimum Investment": 0,
+   "How Long for Return": "3",
+   "Summary": "An apple a day keeps the doctor away",
+   "Link": "https://www.apple.com/"
+ },
+ {
+   "ID": 12,
+   "Name": "Samsung",
+   "ROI": 5.67,
+   "Minimum Investment": 0,
+   "How Long for Return": "3",
+   "Summary": "Samsung > Apple",
+   "Link": "https://www.samsung.com/nz/"
+ },
+ {
+   "ID": 13,
+   "Name": "Euro Bund - Cash",
+   "ROI": 6.26,
+   "Minimum Investment": 0,
+   "How Long for Return": "3",
+   "Summary": "I don't know what this even is??",
+   "Link": "https://www.fma.govt.nz/investors/ways-to-invest/cash-investments/"
+ },
+ {
+   "ID": 14,
+   "Name": "Faceboook",
+   "ROI": 7.31,
+   "Minimum Investment": 0,
+   "How Long for Return": "3",
+   "Summary": "Mark Zuckerburg really needs your money!!",
+   "Link": "https://facebook.com"
+ },
+ {
+   "ID": 15,
+   "Name": "Tesla",
+   "ROI": 9.897,
+   "Minimum Investment": 0,
+   "How Long for Return": "3",
+   "Summary": "Electric cars for the win",
+   "Link": "https://www.tesla.com/en_NZ/tradein"
+ },
+ {
+   "ID": 16,
+   "Name": "Rental Properties",
+   "ROI": 5.61,
+   "Minimum Investment": 0,
+   "How Long for Return": "2",
+   "Summary": "I like investing in houses",
+   "Link": "https://www.nerdwallet.com/blog/investing/5-ways-to-invest-in-real-estate/"
+ },
+ {
+   "ID": 17,
+   "Name": "Dairy",
+   "ROI": 5.287,
+   "Minimum Investment": 0,
+   "How Long for Return": "2",
+   "Summary": "CHEEEEEEESE!!!!!",
+   "Link": "https://www.fonterra.com/nz/en/investors/farmgate-milk-prices/shares-and-units.html"
+ },
+ {
+   "ID": 18,
+   "Name": "Catering Services",
+   "ROI": 1.2,
+   "Minimum Investment": 0,
+   "How Long for Return": "2",
+   "Summary": "Who doesn't love food?",
+   "Link": "https://littlewolf.co.nz/catering-auckland/"
+ },
+ {
+   "ID": 19,
+   "Name": "Cleaning Services",
+   "ROI": 0.9,
+   "Minimum Investment": 0,
+   "How Long for Return": "2",
+   "Summary": "For you OCD neat freaks out there",
+   "Link": "https://www.centralclean.co.nz/"
+ }
+]
