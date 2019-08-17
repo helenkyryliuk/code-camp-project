@@ -21,7 +21,6 @@ export class MainForm extends Component {
     this.setState({ submittingState: 'submitted' });
   }
 
-
     render() {
       const divStyle = {
         height: "20px",
