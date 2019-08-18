@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Footer from './Footer';
 import Header from './Header';
+import Table from './Table';
+
 import axios from 'axios';
 
 
@@ -27,11 +29,6 @@ export class MainForm extends Component {
   }
 
     render() {
-      const divStyle = {
-        height: "20px",
-        width: "25%",
-      };
-      const { data } = this.state;
         return (
     <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <Header />
@@ -50,7 +47,9 @@ export class MainForm extends Component {
         <p className="lead">
           <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Search</button>
         </p>  
-        {data.map(option => <div key={option.ID}>{option.Name}{' '}{option.ROI}%</div>)}
+        
+        
+    <Table data={this.state.data}/>
       </main>
       <Footer />
       </div>
