@@ -55,11 +55,20 @@ text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0);
 box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
+/* .cover-container {
 max-width: 42em;
+} */
+a {
+  color: #333;
 }
-
-
+.table {
+  background: lightgray;
+  color: #333;
+  width: 100%;
+}
+input {
+  width: 300px;
+}
 /*
 * Header
 */
@@ -114,10 +123,43 @@ padding: .75rem 1.25rem;
 font-weight: 700;
 }
 
-
+#root {
+  width: 100%;
+}
 /*
 * Footer
 */
 .mastfoot {
 color: rgba(255, 255, 255, .5);
+}
+
+.title {
+  float: left;
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.title-h1 {
+  font-family: Roboto;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.title-h3 {
+  font-family: Roboto;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.input-bar {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.btn-secondary:hover {
+  background: #B1B1B1;
+}
+
+.invest {
+  color: #FFAA2C;
 }
