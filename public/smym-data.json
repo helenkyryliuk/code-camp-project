@@ -2,7 +2,7 @@
  {
    "ID": 1,
    "Name": "Amana Kiwisaver Plan - aggressive",
-   "ROI": 6.26,
+   "ROI": 106.26,
    "Minimum Investment": 0,
    "How Long for Return": "1",
    "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
@@ -11,7 +11,7 @@
  {
    "ID": 2,
    "Name": "AMP KiwiSaver ANZ Balanced Growth Fund",
-   "ROI": 7.31,
+   "ROI": 107.31,
    "Minimum Investment": 0,
    "How Long for Return": "1",
    "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
@@ -20,7 +20,7 @@
  {
    "ID": 3,
    "Name": "ASB KiwiSaver Scheme - Balanced Fund",
-   "ROI": 7.57,
+   "ROI": 107.57,
    "Minimum Investment": 0,
    "How Long for Return": "1",
    "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
@@ -29,7 +29,7 @@
  {
    "ID": 4,
    "Name": "Milford KiwiSaver Plan - Balanced Fund",
-   "ROI": 0.082,
+   "ROI": 100.08,
    "Minimum Investment": 0,
    "How Long for Return": "1",
    "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
@@ -38,7 +38,7 @@
  {
    "ID": 5,
    "Name": "ANZ KiwiSaver Balanced Fund",
-   "ROI": 5.61,
+   "ROI": 105.61,
    "Minimum Investment": 0,
    "How Long for Return": "1",
    "Summary": "This for long term investments. You can only access your money if you wish to buy your first home or use it for retirement ",
@@ -47,7 +47,7 @@
  {
    "ID": 6,
    "Name": "Bitcoin",
-   "ROI": 56.864,
+   "ROI": 156.86,
    "Minimum Investment": 0,
    "How Long for Return": "immediate",
    "Summary": "get rich fast!! its really legit!!",
@@ -56,7 +56,7 @@
  {
    "ID": 7,
    "Name": "Sharesies",
-   "ROI": 1.84,
+   "ROI": 101.84,
    "Minimum Investment": 0,
    "How Long for Return": "immediate",
    "Summary": "This is a simple way to get started with investment",
@@ -65,7 +65,7 @@
  {
    "ID": 8,
    "Name": "Gold",
-   "ROI": 6.26,
+   "ROI": 106.26,
    "Minimum Investment": 0,
    "How Long for Return": "immediate",
    "Summary": "all that glitters is gold...invest now to get rich!",
@@ -74,7 +74,7 @@
  {
    "ID": 9,
    "Name": "Coffee",
-   "ROI": 7.31,
+   "ROI": 107.31,
    "Minimum Investment": 0,
    "How Long for Return": "immediate",
    "Summary": "mmmmm...cawfee",
@@ -83,7 +83,7 @@
  {
    "ID": 10,
    "Name": "Oil",
-   "ROI": 7.545,
+   "ROI": 107.54,
    "Minimum Investment": 0,
    "How Long for Return": "immediate",
    "Summary": "I love the environment!!",
@@ -92,7 +92,7 @@
  {
    "ID": 11,
    "Name": "Apple",
-   "ROI": 0.0889,
+   "ROI": 100.08,
    "Minimum Investment": 0,
    "How Long for Return": "3",
    "Summary": "An apple a day keeps the doctor away",
@@ -101,7 +101,7 @@
  {
    "ID": 12,
    "Name": "Samsung",
-   "ROI": 5.67,
+   "ROI": 105.67,
    "Minimum Investment": 0,
    "How Long for Return": "3",
    "Summary": "Samsung > Apple",
@@ -110,7 +110,7 @@
  {
    "ID": 13,
    "Name": "Euro Bund - Cash",
-   "ROI": 6.26,
+   "ROI": 106.26,
    "Minimum Investment": 0,
    "How Long for Return": "3",
    "Summary": "I don't know what this even is??",
@@ -119,7 +119,7 @@
  {
    "ID": 14,
    "Name": "Faceboook",
-   "ROI": 7.31,
+   "ROI": 107.31,
    "Minimum Investment": 0,
    "How Long for Return": "3",
    "Summary": "Mark Zuckerburg really needs your money!!",
@@ -128,7 +128,7 @@
  {
    "ID": 15,
    "Name": "Tesla",
-   "ROI": 9.897,
+   "ROI": 109.89,
    "Minimum Investment": 0,
    "How Long for Return": "3",
    "Summary": "Electric cars for the win",
@@ -137,7 +137,7 @@
  {
    "ID": 16,
    "Name": "Rental Properties",
-   "ROI": 5.61,
+   "ROI": 105.61,
    "Minimum Investment": 0,
    "How Long for Return": "2",
    "Summary": "I like investing in houses",
@@ -146,7 +146,7 @@
  {
    "ID": 17,
    "Name": "Dairy",
-   "ROI": 5.287,
+   "ROI": 105.28,
    "Minimum Investment": 0,
    "How Long for Return": "2",
    "Summary": "CHEEEEEEESE!!!!!",
@@ -155,7 +155,7 @@
  {
    "ID": 18,
    "Name": "Catering Services",
-   "ROI": 1.2,
+   "ROI": 101.20,
    "Minimum Investment": 0,
    "How Long for Return": "2",
    "Summary": "Who doesn't love food?",
@@ -164,7 +164,7 @@
  {
    "ID": 19,
    "Name": "Cleaning Services",
-   "ROI": 0.9,
+   "ROI": 100.90,
    "Minimum Investment": 0,
    "How Long for Return": "2",
    "Summary": "For you OCD neat freaks out there",
