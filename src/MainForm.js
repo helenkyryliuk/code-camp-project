@@ -12,7 +12,7 @@ export class MainForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      amount: "",
+      amount: 0,
       submittingState: "",
       data: [],
     };
@@ -24,9 +24,13 @@ export class MainForm extends Component {
   };
 
   handleSubmitForm = async (e) => {
+    const { amount } = this.state;
     this.setState({ submittingState: 'submitted' });
     const result = await axios.get('/smym-data.json');
-    const orderedData = _.sortBy(result.data, 'ROI', 'asc');
+    const orderedData = _.orderBy(result.data, 'ROI', 'desc');
+   
+    const updatedData = orderedData.map(i => ({ ...i, ROI: ( (amount*(i.ROI/100))+ amount )}) );
+    console.log(orderedData);
     this.setState({ data: orderedData });
   }
 
@@ -42,7 +46,7 @@ export class MainForm extends Component {
           <div className="input-group-prepend">
             <span className="input-group-text">$</span>
           </div>
-          <input type="text" className="form-control" aria-label="Amount (to the nearest dollar)" onChange={this.handleInputChange}/>
+          <input type="number" name="amount" className="form-control" aria-label="Amount (to the nearest dollar)" onChange={this.handleInputChange}/>
         </div>
         <p className="lead">
           <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Find investment options</button>
