@@ -1,7 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class Table extends Component {
+    
     render() {
+        
         if (this.props.data.length === 0) {
             return null;
         }     
@@ -13,7 +15,6 @@ export class Table extends Component {
       <th scope="col" className="tableText">Investment Options</th>
       <th scope="col" className="tableText">Your money after a year</th>
       <th scope="col">Info</th>
-      {/* <th scope="col">Handle</th> */}
     </tr>
   </thead>
   <tbody>
@@ -22,7 +23,6 @@ export class Table extends Component {
         <th scope="row" className="tableText">${item.ROI}</th>
         <th scope="row"><a href={item.Link}>link</a></th>
       </tr>)}
-    
   </tbody>
 </table>
         )

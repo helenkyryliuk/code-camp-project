@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Footer from './Footer';
 import Header from './Header';
 import Table from './Table';
+import _ from 'lodash';
 
 import Title from './Title';
 import axios from 'axios';
@@ -25,8 +26,8 @@ export class MainForm extends Component {
   handleSubmitForm = async (e) => {
     this.setState({ submittingState: 'submitted' });
     const result = await axios.get('/smym-data.json');
-    console.log(result.data);
-    this.setState({ data: result.data });
+    const orderedData = _.sortBy(result.data, 'ROI', 'asc');
+    this.setState({ data: orderedData });
   }
 
     render() {
@@ -46,8 +47,6 @@ export class MainForm extends Component {
         <p className="lead">
           <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Find investment options</button>
         </p>  
-        
-        
     <Table data={this.state.data}/>
       </main>
       <Footer />
