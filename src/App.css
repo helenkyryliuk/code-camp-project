@@ -163,3 +163,7 @@ color: rgba(255, 255, 255, .5);
 .invest {
   color: #FFAA2C;
 }
+
+.tableText {
+  text-align: left;
+}

@@ -10,16 +10,16 @@ export class Table extends Component {
 <table className="table">
   <thead className="thead-light">
     <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Rate</th>
+      <th scope="col" className="tableText">Investment Options</th>
+      <th scope="col" className="tableText">Your money after a year</th>
       <th scope="col">Info</th>
       {/* <th scope="col">Handle</th> */}
     </tr>
   </thead>
   <tbody>
    {this.props.data.map(item => <tr key={item.ID}>
-        <th scope="row">{item.Name}</th>
-        <th scope="row">{item.ROI}%</th>
+        <th scope="row" className="tableText">{item.Name}</th>
+        <th scope="row" className="tableText">${item.ROI}</th>
         <th scope="row"><a href={item.Link}>link</a></th>
       </tr>)}
     
