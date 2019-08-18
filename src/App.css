@@ -132,3 +132,34 @@ font-weight: 700;
 .mastfoot {
 color: rgba(255, 255, 255, .5);
 }
+
+.title {
+  float: left;
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.title-h1 {
+  font-family: Roboto;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.title-h3 {
+  font-family: Roboto;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.input-bar {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.btn-secondary:hover {
+  background: #B1B1B1;
+}
+
+.invest {
+  color: #FFAA2C;
+}

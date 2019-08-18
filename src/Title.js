@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
 
-export class Footer extends Component {
+export class Title extends Component {
     render() {
         return (
-            <footer className="mastfoot mt-auto">
         <div className="inner">
-        
+            <h1 className="title">Show Me Your Money</h1>         
         </div>
-        </footer>
         )
     }
 }
 
-export default Footer
+export default Title
