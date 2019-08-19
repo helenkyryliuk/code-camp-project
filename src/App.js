@@ -7,9 +7,7 @@ import Table from './Table';
 
 function App() {
   return (
-    <>
-      <MainForm />
-    </>
+    <MainForm />
   );
 }
 

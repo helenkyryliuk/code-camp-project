@@ -31,37 +31,37 @@ export class MainForm extends Component {
     const updated = orderedData.map(i => {
       const newAmount = Number(amount);
       const rate = i.ROI - 100;
-      const dividedBy100 = rate/100;
-      const multipliedByAmount = dividedBy100*newAmount;
+      const dividedBy100 = rate / 100;
+      const multipliedByAmount = dividedBy100 * newAmount;
       const amountAdded = multipliedByAmount + newAmount;
-      return ({ ...i, ROI: amountAdded })
+      return ({ ...i, ROI: amountAdded.toFixed(2) })
     });
     this.setState({ data: updated });
   }
 
-    render() {
-        return (
-    <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <Title />
-      <Header />
-      <main role="main" className="inner cover">
-        <h1 className="cover-heading title-h1">Do you want to <span class="invest">invest</span>?</h1>
-        <h1 className="cover-heading title-h3">How much money do you want to invest?</h1>
-        <div className="input-group mb-3 input-bar">
-          <div className="input-group-prepend">
-            <span className="input-group-text">$</span>
+  render() {
+    return (
+      <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <Title />
+        <Header />
+        <main role="main" className="inner cover">
+          <h1 className="cover-heading title-h1">Do you want to <span class="invest">invest</span>?</h1>
+          <h1 className="cover-heading title-h3">How much money do you want to invest?</h1>
+          <div className="input-group mb-3 input-bar">
+            <div className="input-group-prepend">
+              <span className="input-group-text">$</span>
+            </div>
+            <input type="number" name="amount" className="form-control" aria-label="Amount (to the nearest dollar)" onChange={this.handleInputChange} />
           </div>
-          <input type="number" name="amount" className="form-control" aria-label="Amount (to the nearest dollar)" onChange={this.handleInputChange}/>
-        </div>
-        <p className="lead">
-          <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Find investment options</button>
-        </p>  
-    <Table data={this.state.data}/>
-      </main>
-      <Footer />
+          <p className="lead">
+            <button className="btn btn-lg btn-secondary" onClick={this.handleSubmitForm}>Find investment options</button>
+          </p>
+          <Table data={this.state.data} />
+        </main>
+        <Footer />
       </div>
-        )
-    }
+    )
+  }
 }
 
 export default MainForm;

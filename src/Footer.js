@@ -4,10 +4,9 @@ export class Footer extends Component {
     render() {
         return (
             <footer className="mastfoot mt-auto">
-        <div className="inner">
-        
-        </div>
-        </footer>
+                <div className="inner">
+                </div>
+            </footer>
         )
     }
 }
