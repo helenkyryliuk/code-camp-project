@@ -27,11 +27,29 @@ export class MainForm extends Component {
     const { amount } = this.state;
     this.setState({ submittingState: 'submitted' });
     const result = await axios.get('/smym-data.json');
+
     const orderedData = _.orderBy(result.data, 'ROI', 'desc');
-   
-    const updatedData = orderedData.map(i => ({ ...i, ROI: ( (amount*(i.ROI/100))+ amount )}) );
     console.log(orderedData);
-    this.setState({ data: orderedData });
+
+    
+
+    
+    const updated = orderedData.map(i => {
+      console.log(i.ROI)
+      const newAmount = Number(amount);
+      console.log(typeof newAmount)
+
+      const rate = i.ROI - 100;
+      const dividedBy100 = rate/100;
+      const multipliedByAmount = dividedBy100*newAmount;
+      console.log()
+      const amountAdded = multipliedByAmount + newAmount;
+      return ({ ...i, ROI: amountAdded })
+    });
+
+
+    console.log(updated);
+    this.setState({ data: updated });
   }
 
     render() {
